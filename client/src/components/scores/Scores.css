@@ -1,0 +1,69 @@
+.erich{
+    color: gold;
+}
+h1{
+    color: #53738f;
+}
+
+.mainImg{
+    margin: 0 auto;
+    display: block;
+}
+h2{
+    color: #53738f;
+}
+
+.scores-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.scores-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.records{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:20px
+}
+
+.record{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 20px;
+    color: #53738f;
+    text-align: center;
+}
+
+.top-img{
+    width: 400px;
+    height: 230px;
+
+}
+
+.record-title{
+    font-size: 22px;
+    color: #53738f;
+}
+.gold{
+    color: gold;
+    text-transform: uppercase;
+}
+
+.big{
+    font-size: 40px;
+}
+
+.cur-number{
+    justify-self: flex-start;
+}
